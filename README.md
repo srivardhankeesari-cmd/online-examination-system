@@ -70,8 +70,8 @@ g++ exam.cpp -o exam
 ## Example Run
 
 ```
-Enter Name: K. Srivardhan
-Enter Roll Number: AP24122230029
+Enter Name: G.Suresh
+Enter Roll Number: AP24122230018
 
 1) Who developed C++?
 A) Dennis Ritchie
