@@ -1,34 +1,42 @@
 # Online Examination System
 
-A simple C++ project for conducting timed MCQ examinations using file handling and auto-grading
+A structured C++ console-based application designed to conduct multiple-choice examinations with automatic grading, file handling, and a timer. This project demonstrates core programming concepts including classes, file I/O, randomization, and time-based operations.
+
+---
+
+## Overview
+
+The system presents a set of MCQs to the user, records responses, calculates the final score, and stores the results. The questions are loaded from an external file, allowing easy modification without altering the source code.
 
 ---
 
 ## Features
-- Loads questions automatically from a text file  
-- Random question order for every attempt  
-- 60-second exam timer  
-- Multiple-choice interface  
-- Automatic grading  
-- Stores student results in `results.txt`  
-- Easy to add or modify questions  
-- Lightweight console-based program
+
+- Loads questions from a text file  
+- Randomized question order  
+- One-minute exam timer  
+- Automatic evaluation and scoring  
+- Saves results to `results.txt`  
+- Simple and clear terminal interface  
+- Extendable structure for additional features
 
 ---
 
-## Project Structure
+## File Structure
+
 ```
 Online-Examination-System/
 │
-├── exam.cpp          # Main source code
-├── questions.txt     # MCQ question bank
-└── results.txt       # Stores exam results
+├── exam.cpp          // Core application logic
+├── questions.txt     // Question bank
+└── results.txt       // Automatically generated student results
 ```
 
 ---
 
-## How to Add Questions
-Add questions to the file `questions.txt` using the following format:
+## Question File Format
+
+Each question in `questions.txt` follows the pattern below:
 
 ```
 1) What is the size of int in C++?
@@ -39,7 +47,7 @@ D) 8 bytes
 ANSWER: C
 ```
 
-Add as many questions as required.
+Questions can be added or removed as needed.
 
 ---
 
@@ -51,7 +59,7 @@ g++ exam.cpp -o exam
 exam
 ```
 
-### Linux / Mac
+### Linux / macOS
 ```
 g++ exam.cpp -o exam
 ./exam
@@ -59,10 +67,11 @@ g++ exam.cpp -o exam
 
 ---
 
-## Sample Output
+## Example Run
+
 ```
-Enter Name: Rahul Kumar
-Enter Roll Number: 22A91A0508
+Enter Name: K. Srivardhan
+Enter Roll Number: AP24122230029
 
 1) Who developed C++?
 A) Dennis Ritchie
@@ -71,36 +80,35 @@ C) Bjarne Stroustrup
 D) Guido van Rossum
 Your answer: C
 
-Exam Finished!
+Exam Completed
 Score: 3/3
 ```
 
-Entry added in `results.txt`:
+Entry stored in `results.txt`:
 ```
-Rahul Kumar | 22A91A0508 | Score: 3/3
+Suresh| AP24122230018 | Score: 3/3
 ```
 
 ---
 
 ## Technologies Used
+
 - C++  
 - File Handling  
-- Randomization  
-- Chrono Library (Timer)
+- Random Number Generation  
+- Chrono Library (Timer)  
+- Basic OOP
 
 ---
 
-## Future Enhancements
-- Graphical User Interface  
-- User login system  
-- Multiple subjects  
-- PDF scorecard  
-- Database integration  
-- Admin panel for managing questions
 
----
 
 ## Author
+
 K. Srivardhan  
 Roll No: AP24122230029  
-Smart Tech Club – Project Showcase (November 2025)
+G.suresh
+Roll No:AP24122230018
+A.yagna
+Roll No:AP24110011625
+Smart Tech Club – Project 
