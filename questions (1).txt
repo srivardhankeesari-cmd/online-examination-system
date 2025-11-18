@@ -1,0 +1,30 @@
+What is the capital of India?
+New Delhi
+Mumbai
+Kolkata
+Chennai
+A
+What is 2 + 2?
+3
+4
+5
+6
+B
+Which one is a programming language?
+Dog
+Apple
+C++
+Car
+C
+Which planet is known as Red Planet?
+Earth
+Mars
+Venus
+Jupiter
+B
+Who invented C++?
+Dennis Ritchie
+Elon Musk
+Bjarne Stroustrup
+Bill Gates
+C
